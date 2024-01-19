@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./JS/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="./CSS/main.css">
+</head>
+<body>
+
+<section id="title">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">danielMieleniewski.</a>
+        </div>
+    </nav>
+</section>
+
+<div id="Home">
+    <video autoplay muted loop id="Typing_Video">
+        <source src="./VIDEO/background.mov" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+</div>
+
+<section class="main-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="profile-pic">
+                    <img src="./img/memirror.jpeg" alt="Profile Picture" class="img-fluid rounded-circle">
+                </div>
+                <div class="about-text">
+                    <h2>danielM.</h2>
+                    <p>Solution You Need. Designs You Love.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="button-container">
+                    <button id="scroll-btn">
+                        <a href="#my-work">myWork</a>
+                    </button>
+                </div>
+                <div class="button-container">
+                    <button id="scroll-btn">
+                        <a href="#reach-out">reachOut</a>
+                    </button>
+                </div>
+                <h2 id="connect-with-me">Connect With Me</h2>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/DEJNIELEM/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@DEJNIELEM" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://github.com/melexxxx" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+                <h2 id="connect-with-me">Random Frogs</h2>
+                <div class="grid">
+                    <div class="image-container">
+                        <img src="https://source.unsplash.com/400x400?Frog" alt="Frog 1">
+                    </div>
+                    <div class="image-container">
+                        <img src="https://source.unsplash.com/400x400?frogs" alt="Frog 2">
+                    </div>
+                    <div class="image-container">
+                        <img src="https://source.unsplash.com/400x400?frog" alt="Frog 3">
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="main-container" id="my-work">
+    <div class="about-quote">
+        <h3>My Work</h3>
+        <p>Design is <span class="word">Your Choice</span></p>
+    </div>
+    <div class="card-deck">
+        <div class="card">
+            <img src="./img/project1.png" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+                <h5 class="card-title">Project 1</h5>
+                <p class="card-text">Description of Project 1</p>
+                <a href="#" class="btn btn-primary">Explore</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/project2.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+                <h5 class="card-title">Project 2</h5>
+                <p class="card-text">Description of Project 2</p>
+                <a href="#" class="btn btn-primary">Explore</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/project3.png" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+                <h5 class="card-title">Project 3</h5>
+                <p class="card-text">Description of Project 3</p>
+                <a href="#" class="btn btn-primary">Explore</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/project3.png" class="card-img-top" alt="Project 4">
+            <div class="card-body">
+                <h5 class="card-title">Project 4</h5>
+                <p class="card-text">Description of Project 3</p>
+                <a href="#" class="btn btn-primary">Explore</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="main-container" id="reach-out">
+    <div class="about-quote">
+        <h3>Reach Out</h3>
+    </div>
+    <form>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label for="comments">Comments</label>
+            <textarea class="form-control" id="comments" placeholder="Leave a comment here" style="height: 100px"></textarea>
+        </div>
+        <div>
+        <button type="submit" class="btn btn-primary">SEND</button>
+        </div>
+    </form>
+</section>
+
+</body>
+</html>
