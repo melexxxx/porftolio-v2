@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>myPortfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/css/intlTelInput.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="./JS/main.js"></script>
-    <link rel="stylesheet" type="text/css" href="./CSS/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/libphonenumber-js/1.9.19/libphonenumber-js.min.js"></script>
+
 </head>
 <body>
 
@@ -50,13 +54,14 @@
                         <a href="#reach-out">reachOut</a>
                     </button>
                 </div>
-                <h2 id="connect-with-me">Connect With Me</h2>
+                <h2 id="connect-with-me">connectWithMe</h2>
                 <div class="social-icons">
                     <a href="https://www.instagram.com/DEJNIELEM/" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="https://www.tiktok.com/@DEJNIELEM" target="_blank"><i class="fab fa-tiktok"></i></a>
                     <a href="https://github.com/melexxxx" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/DanielD68502022" target="_blank"><i class="fab fa-twitter"></i></a>
                 </div>
-                <h2 id="connect-with-me">Random Frogs</h2>
+                <h2 id="connect-with-me">randomFrogs</h2>
                 <div class="grid">
                     <div class="image-container">
                         <img src="https://source.unsplash.com/400x400?Frog" alt="Frog 1">
@@ -107,7 +112,7 @@
             <img src="./img/project3.png" class="card-img-top" alt="Project 4">
             <div class="card-body">
                 <h5 class="card-title">Project 4</h5>
-                <p class="card-text">Description of Project 3</p>
+                <p class="card-text">Description of Project 4</p>
                 <a href="#" class="btn btn-primary">Explore</a>
             </div>
         </div>
@@ -116,21 +121,24 @@
 
 <section class="main-container" id="reach-out">
     <div class="about-quote">
-        <h3>Reach Out</h3>
+        <h3>reachOut</h3>
     </div>
     <form>
         <div class="form-group">
-            <label for="email">Email address</label>
+            <label for="email">emailAddress</label>
             <input type="email" class="form-control" id="email" placeholder="name@example.com">
         </div>
+
         <div class="form-group">
-            <label for="comments">Comments</label>
+            <label for="comments">yourMessage</label>
             <textarea class="form-control" id="comments" placeholder="Leave a comment here" style="height: 100px"></textarea>
         </div>
+
         <div>
-        <button type="submit" class="btn btn-primary">SEND</button>
+            <button type="submit" class="btn btn-primary">SEND</button>
         </div>
     </form>
+
 </section>
 
 </body>

@@ -34,3 +34,16 @@ document.addEventListener("DOMContentLoaded", function () {
     // Set an interval to rotate words every 2000 milliseconds (2 seconds)
     setInterval(rotateWords, 2000);
 });
+
+
+// Initialize the phone input field
+const phoneInput = document.getElementById('phone');
+const iti = window.intlTelInput(phoneInput, {
+    separateDialCode: true,
+            initialCountry: 'auto',
+            geoIpLookup: function(callback) {
+                // Replace this with your own implementation for fetching user's location
+                // For simplicity, we'll use a dummy location (United States) for now
+                callback('US');
+            },
+        });
